@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 /* Navbar section */
@@ -31,6 +32,13 @@ header h1 span {
     text-transform: capitalize;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.items-list li:hover{
+    color: #289f28;
+    transition: all 0.4s;
 }
 
 .user-authentication li {
@@ -46,6 +54,16 @@ header h1 span {
     color: #fff;
     font-size: 16px;
     border-radius: 10px;
+    transition: all 0.4s;
+    border: 1px solid #289f28;
+    cursor: pointer;
+}
+
+#logs:hover{
+    background-color: transparent;
+    border: 1px solid #289f28;
+    color: #31323e;
+    transition: all 0.4s;
 }
 
 .login button {
@@ -274,4 +292,50 @@ header h1 span {
 
 .active{
     color: #289f28;
+}
+
+
+@media screen and (max-width: 1500px){
+    .items-list {
+        font-size: 13px;
+    }
+    .nav-items {
+        margin-left: 50px
+    }
+    .Left-section{
+        margin-top: 10px;
+    }
+    .Left-section h1 {
+        font-size: 31px;
+    }
+    .salling-section{
+        margin-top: 36px;
+    }
+    .page-number{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .first {
+        font-size: 35px;
+    }
+
+    .data-describ {
+        font-size: 12px;
+    }
+    .second{
+        font-size: 18px;
+    }
+    .describ {
+        width: 80%;
+        margin: 19px 0;
+        font-size: 12px;
+    }
+    .know-us button {
+        padding: 7px 21px;
+        font-size: 13px !important;
+    }
+
+    .salling-section p {
+        font-size: 13px;
+    }
 }
