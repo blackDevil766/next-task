@@ -1,4 +1,4 @@
-import Footer from "../footer"
+import Footer from "../componants/footer"
 
 const Layout2 = ({children}) => {
     return (

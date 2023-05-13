@@ -1,5 +1,5 @@
-import Layout1 from "../componants/layouts/Layout1"
-import Layout2 from "../componants/layouts/Layout2"
+import Layout1 from "../layouts/Layout1"
+import Layout2 from "../layouts/Layout2"
 import "../styles/globals.css"
 
 export default function App(props) {
