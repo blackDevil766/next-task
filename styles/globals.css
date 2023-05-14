@@ -70,9 +70,11 @@ header h1 span {
     background-color: #289f28;
 }
 
-.logout button {
-    background-color: #31323e;
-    display: none;
+.signIn button {
+    background-color: #362424 ;
+    border: 2px solid #362424 !important;
+    color: #fff;
+   
 }
 
 .nav-container {
@@ -97,6 +99,8 @@ header h1 span {
     align-items: center;
 }
 
+
+
 /* end navbar section */
 
 .Layout1-container {
@@ -104,7 +108,6 @@ header h1 span {
 }
 
 .layout1 {
-    /* width: calc(100% - 7%); */
     margin-left: 76px;
 }
 
@@ -144,8 +147,6 @@ header h1 span {
 .home-page-container {
     display: flex;
     justify-content: flex-start;
-    /* position: absolute;
-    top: 0; */
 }
 
 .Left-section {
@@ -153,15 +154,10 @@ header h1 span {
     display: grid;
     align-content: center;
     margin-top: 60px;
-    /* padding: 47px 0px 43px 81px; */
 }
 
 .left {
     margin-left: 82px;
-    /* height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center; */
 }
 
 .Left-section h1 {
@@ -292,6 +288,25 @@ header h1 span {
 
 .active{
     color: #289f28;
+}
+
+
+.MuiFormControl-root{
+    width: 313px;
+}
+
+
+.css-1wnsr1i{
+    border: 0;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 11px;
+    text-align: center;
+}
+
+.box-title{
+    font-family: 'Lato', sans-serif;
 }
 
 
